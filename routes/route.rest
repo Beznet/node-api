@@ -1,0 +1,5 @@
+GET http://localhost:3005/subscribers
+
+###
+
+Get http://localhost:3005/subscribers/12
