@@ -2,11 +2,11 @@ const mongoose = require('mongoose')
 
 const subscriberSchema = new mongoose.Schema({
   name: {
-    type: string,
+    type: String,
     required: true
   },
   subscribedToChannel: {
-    type: string,
+    type: String,
     required: true
   },
   subscribeDate: {

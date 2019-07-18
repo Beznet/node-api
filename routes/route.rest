@@ -3,3 +3,13 @@ GET http://localhost:3005/subscribers
 ###
 
 Get http://localhost:3005/subscribers/12
+
+###
+
+POST http://localhost:3005/subscribers
+Content-Type: application/json
+
+{
+  "name": "Bob",
+  "subscribedToChannel": "babys channel"
+}
