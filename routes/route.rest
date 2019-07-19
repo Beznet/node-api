@@ -18,7 +18,7 @@ Content-Type: application/json
 DELETE http://localhost:3005/subscribers/5d30d99b054b4e22f188773f
 
 ###
-PATCH http://localhost:3005/subscribers/5d30d99b054b4e22f188773f
+PATCH http://localhost:3005/subscribers/5d308991b877721cda23eb0f
 Content-Type: application/json 
 
 {
