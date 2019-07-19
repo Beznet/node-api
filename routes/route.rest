@@ -2,7 +2,7 @@ GET http://localhost:3005/subscribers
 
 ###
 
-Get http://localhost:3005/subscribers/12
+Get http://localhost:3005/subscribers/5d30db8c60243a23229212c0
 
 ###
 
@@ -12,4 +12,15 @@ Content-Type: application/json
 {
   "name": "Bob",
   "subscribedToChannel": "babys channel"
+}
+
+###
+DELETE http://localhost:3005/subscribers/5d30d99b054b4e22f188773f
+
+###
+PATCH http://localhost:3005/subscribers/5d30d99b054b4e22f188773f
+Content-Type: application/json 
+
+{
+  "name": "Titty Tom"
 }
