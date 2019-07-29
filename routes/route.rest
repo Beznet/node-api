@@ -1,26 +1,26 @@
-GET http://localhost:3005/subscribers
+GET http://localhost:3000/subscribers
 
 ###
 
-Get http://localhost:3005/subscribers/5d34bb8c457d3b59d3c8b850
+Get http://localhost:3000/subscribers/5d3e0db7cb4be0bfc4c25ff9
 
 ###
 
-POST http://localhost:3005/subscribers
+POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-  "name": "rob",
-  "subscribedChannel": "bobs channel"
+  "name": "Lizzy",
+  "subscribedChannel": "Bennetts Channel"
 }
 
 ###
-DELETE http://localhost:3005/subscribers/5d34bb8c457d3b59d3c8b850
+DELETE http://localhost:3000/subscribers/5d3e0db7cb4be0bfc4c25ff9
 
 ###
-PATCH http://localhost:3005/subscribers/5d308991b877721cda23eb0f
+PATCH http://localhost:3000/subscribers/5d3e144ecb4be0bfc4c25ffa
 Content-Type: application/json 
 
 {
-  "name": "Titty Tom"
+  "name": "Tommy"
 }
